@@ -1,0 +1,31 @@
+#Internal package file, do not edit.
+#Wed Oct 21 15:32:57 PDT 2020
+2.base=/Users/tony/Desktop/GroceryPals-main/storeLocator/StoreLocator/app/build/intermediates/transforms/stripDebugSymbol/debug/0
+5.set=ASSET
+0.path=list_of_locations.geojson
+2.baseType=DIRECTORY
+3.base=/Users/tony/Desktop/GroceryPals-main/storeLocator/StoreLocator/app/build/intermediates/transforms/stripDebugSymbol/debug/0
+2.set=NATIVE_RESOURCE
+1.path=lib/x86_64/libmapbox-gl.so
+4.base=/Users/tony/Desktop/GroceryPals-main/storeLocator/StoreLocator/app/build/intermediates/dex/debug/mergeDexDebug/out
+count=7
+5.baseType=DIRECTORY
+2.path=lib/armeabi-v7a/libmapbox-gl.so
+5.base=/Users/tony/Desktop/GroceryPals-main/storeLocator/StoreLocator/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+4.set=DEX
+3.path=lib/x86/libmapbox-gl.so
+6.base=/Users/tony/Desktop/GroceryPals-main/storeLocator/StoreLocator/app/build/intermediates/transforms/stripDebugSymbol/debug/0
+3.baseType=DIRECTORY
+1.set=NATIVE_RESOURCE
+4.path=classes.dex
+6.set=NATIVE_RESOURCE
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=LICENSE.md
+0.base=/Users/tony/Desktop/GroceryPals-main/storeLocator/StoreLocator/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+0.baseType=DIRECTORY
+3.set=NATIVE_RESOURCE
+6.path=lib/arm64-v8a/libmapbox-gl.so
+1.base=/Users/tony/Desktop/GroceryPals-main/storeLocator/StoreLocator/app/build/intermediates/transforms/stripDebugSymbol/debug/0
+4.baseType=DIRECTORY
+0.set=ASSET

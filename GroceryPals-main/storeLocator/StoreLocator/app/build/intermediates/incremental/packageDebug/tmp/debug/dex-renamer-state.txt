@@ -1,0 +1,4 @@
+#Sun Nov 01 14:14:15 PST 2020
+base.0=/Users/tony/Desktop/GroceryPals-main/storeLocator/StoreLocator/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

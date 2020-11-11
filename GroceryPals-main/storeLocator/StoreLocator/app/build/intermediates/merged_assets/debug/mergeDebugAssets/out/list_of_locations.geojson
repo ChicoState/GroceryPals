@@ -1,0 +1,85 @@
+﻿{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WinCo Foods",
+        "hours": "12am - 12am",
+        "phone": "530 345 7899",
+        "description": "2060 E 20th St, Chico, CA 95928, United States"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.800351,
+           39.729166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trader Joe's",
+        "hours": "8AM - 9PM",
+        "phone": "530-343-9920",
+        "description": "801 East Ave
+                        Chico, CA 95926 "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.846983, 39.759421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safeway",
+        "hours": "5am-11pm",
+        "phone": "(530) 899-2320",
+        "description": "1366 East Ave, Chico CA 95926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -121.82262711251555,
+          39.76232685861376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safeway",
+        "hours": "8am - 5:30pm",
+        "phone": "(530) 895 6300",
+        "description": "720 Mangrove Ave, Chico, CA 95926, United States"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8337199999996,
+                39.73657174961471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safeway",
+        "hours": "9:30am - 6pm",
+        "phone": "(530) 895 0244",
+        "description": "1016 W Sacramento Ave, Chico, CA 95926, United States"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8594031693109,
+                39.731975243473215
+        ]
+      }
+    }
+  ]
+}
