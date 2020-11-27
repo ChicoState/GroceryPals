@@ -15,4 +15,10 @@
     <string name="hours">Hours</string>
     <string name="phone">Phone</string>
     <string name="distance">mi</string>
+    <string name="item_name">Item Name</string>
+    <string name="my_current_list">My current List</string>
+    <string name="begin_route">Begin Route</string>
+    <string name="submit_item">Submit Item</string>
+    <string name="clear_list">Clear List</string>
+    <string name="remove_item">Remove Item</string>
 </resources>

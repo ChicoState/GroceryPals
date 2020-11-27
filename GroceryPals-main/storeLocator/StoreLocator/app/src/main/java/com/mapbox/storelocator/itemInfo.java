@@ -53,7 +53,14 @@ public class itemInfo {
         this.itemPrice = itemPrice;
     }
 
-    public void updateItemCount() {
-        this.itemCount +=1;
+    public void updateItemCount(int count ) {
+
+        this.itemCount +=count;
     }
+    //method to check if two items are equal. By equal we mean that their names are the same
+    public boolean itemsAreEqual(itemInfo itemOne, String itemTwoName){
+
+        return itemOne.getItemName().equals(itemTwoName);
+    }
+
 }

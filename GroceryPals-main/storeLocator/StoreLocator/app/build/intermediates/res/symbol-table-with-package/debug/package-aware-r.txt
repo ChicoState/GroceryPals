@@ -1374,6 +1374,7 @@ id parent_matrix
 id percent
 id phone_header_tv
 id pin
+id priceUserInput
 id progress_circular
 id progress_horizontal
 id purple_theme_button
@@ -1588,10 +1589,12 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string access_token
 string appbar_scrolling_view_behavior
+string begin_route
 string blue_map_style
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
+string clear_list
 string distance
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
@@ -1600,6 +1603,7 @@ string failure_to_retrieve
 string final_app_name
 string hide_bottom_view_on_scroll_behavior
 string hours
+string item_name
 string map_view
 string mapbox_attributionErrorNoBrowser
 string mapbox_attributionTelemetryMessage
@@ -1626,6 +1630,7 @@ string mapbox_telemetryLink
 string mapbox_telemetrySettings
 string mock_location_title
 string mtrl_chip_close_icon_content_description
+string my_current_list
 string no_internet_message
 string password_toggle_content_description
 string path_password_eye
@@ -1634,9 +1639,11 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string phone
 string purple_map_style
+string remove_item
 string search_menu_title
 string select_a_theme
 string status_bar_notification_info_overflow
+string submit_item
 string terminal_map_style
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

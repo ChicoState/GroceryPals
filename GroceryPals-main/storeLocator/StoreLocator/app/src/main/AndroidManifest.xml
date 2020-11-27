@@ -13,7 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.Gray">
 
-    
+        <activity android:name="com.mapbox.storelocator.MapActivity"/>
+        <activity android:name="com.mapbox.storelocator.addingItems"/>
+
 
         <activity android:name=".MainActivity">
             <intent-filter>

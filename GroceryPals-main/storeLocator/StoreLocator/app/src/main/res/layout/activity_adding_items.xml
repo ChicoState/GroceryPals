@@ -6,16 +6,141 @@
     android:layout_height="match_parent"
     tools:context=".addingItems">
 
-    <!-- Display current List -->
+    <!-- Price Input Field -->
+    <EditText
+        android:id="@+id/priceUserInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:autofillHints="Enter item price"
+        android:ems="10"
+        android:hint="Item Price"
+        android:inputType="textPersonName" />
+
+    <!-- Scroll View for the grocery list when it get too long to fit in one screen-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="333dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <!-- grocery list view -->
+        <TextView
+            android:id="@+id/currentList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:text="@string/my_current_list" />
+
+
+    </ScrollView>
+
+    <!-- Field to enter Item name: -->
+    <EditText
+        android:id="@+id/editTextItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:autofillHints="Enter an item"
+        android:ems="10"
+        android:hint="@string/item_name"
+        android:inputType="textPersonName" />
+
+    <!-- start route button-->
+    <Button
+        android:id="@+id/beginRouteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="255dp"
+
+        android:layout_marginLeft="255dp"
+        android:layout_marginBottom="491dp"
+        android:onClick="startRoute"
+        android:text="@string/begin_route" />
+
+    <!-- sumbit an item button -->
+    <Button
+        android:id="@+id/itemAddSumbitButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginBottom="554dp"
+        android:onClick="itemSubmit"
+        android:text="@string/submit_item" />
+
+    <!-- emtpy the whole list button -->
+    <Button
+        android:id="@+id/clearList"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="255dp"
+        android:layout_marginLeft="255dp"
+        android:layout_marginBottom="553dp"
+        android:onClick="emptyWholeList"
+        android:text="@string/clear_list" />
+
+    <!-- remove one item button -->
+    <Button
+        android:id="@+id/clearOneItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginBottom="490dp"
+        android:onClick="removeItem"
+        android:text="@string/remove_item" />
+
+
+</RelativeLayout>
+
+
+
+<!--
+
+<EditText
+        android:id="@+id/editTextItem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="544dp"
+        android:autofillHints="Enter item price"
+        android:ems="10"
+        android:hint="Item Price"
+        android:inputType="textPersonName" />
+
     <TextView
         android:id="@+id/currentList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My current List"
-        />
-
-    <!-- text box to enter the item name -->
-
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/my_current_list" />
 
     <EditText
         android:id="@+id/editTextItem"
@@ -23,14 +148,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="257dp"
+        android:layout_marginTop="483dp"
+        android:autofillHints="Enter an item"
         android:ems="10"
-        android:hint="Item Name "
+        android:hint="@string/item_name"
         android:inputType="textPersonName" />
 
-
-
-    <!-- Start Route Button -->
     <Button
         android:id="@+id/beginRouteButton"
         android:layout_width="wrap_content"
@@ -39,14 +162,15 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="246dp"
-        android:layout_marginLeft="246dp"
-        android:layout_marginBottom="246dp"
-        android:onClick="startRoute"
-        android:text="Begin Route"
-        />
+        android:layout_marginStart="252dp"
+        android:layout_marginLeft="252dp"
+        android:layout_marginBottom="8dp"
 
-    <!-- Item Submit Button-->
+        android:onClick="startRoute"
+        android:text="@string/begin_route" />
+
+
+
     <Button
         android:id="@+id/itemAddSumbitButton5"
         android:layout_width="wrap_content"
@@ -57,14 +181,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="19dp"
         android:layout_marginLeft="19dp"
-        android:layout_marginBottom="325dp"
-        android:onClick="itemSubmit"
-        android:text="Submit Item" />
+        android:layout_marginBottom="72dp"
 
-    <!-- Clear List Button -->
+        android:onClick="itemSubmit"
+        android:text="@string/submit_item" />
+
     <Button
         android:id="@+id/clearList"
-        android:layout_width="wrap_content"
+        android:layout_width="112dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
@@ -72,12 +196,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="246dp"
         android:layout_marginLeft="246dp"
-        android:layout_marginBottom="321dp"
+        android:layout_marginBottom="69dp"
         android:onClick="emptyWholeList"
-        android:text="Clear List" />
+        android:text="@string/clear_list" />
 
-
-    <!-- Clear one item button -->
     <Button
         android:id="@+id/clearOneItemButton"
         android:layout_width="wrap_content"
@@ -86,15 +208,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="19dp"
-        android:layout_marginLeft="19dp"
-        android:layout_marginBottom="248dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginBottom="9dp"
         android:onClick="removeItem"
-        android:text="Remove Item" />
-
-
-
-
-
-</RelativeLayout>
-
+        android:text="@string/remove_item" />
+-->

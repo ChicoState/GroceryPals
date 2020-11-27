@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/tony/Desktop/GroceryPals-main/storeLocator/StoreLocator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml",
+            "outputFile": "/Users/tony/GroceryPals-main/storeLocator/StoreLocator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml",
             "map": [
                 {
                     "source": "/Users/tony/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/f0be208be48852282e468524b48a35e0/res/values-kn/values-kn.xml",
